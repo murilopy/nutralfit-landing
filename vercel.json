@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "nutralfit-landing",
+  "public": true,
+  "builds": [
+    { "src": "nutralfit.com.br/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/nutralfit.com.br/newclareadorbp/index.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "cache": {
+    "browser": {
+      "maxAge": 31536000
+    }
+  }
+}
