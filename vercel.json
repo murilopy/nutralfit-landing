@@ -5,9 +5,7 @@
   "builds": [
     { "src": "nutralfit.com.br/**", "use": "@vercel/static" }
   ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/nutralfit.com.br/newclareadorbp/index.html" }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/nutralfit.com.br/newclareadorbp/index.html" }
+  ]
 }
