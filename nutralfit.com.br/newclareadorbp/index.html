@@ -1464,5 +1464,17 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/nutralfit.com.br\/wp-admi
 var stratum = {"localeData":{"":{"domain":"stratum","lang":"pt_BR"}},"settings":{"wide_support":true},"ajax_url":"https:\/\/nutralfit.com.br\/wp-admin\/admin-ajax.php","nonces":{"get_articles":"3b1669c20e","get_elementor_templates":"638f083d9d"}};
 </script>
 <script src="wp-content/plugins/stratum/assets/js/frontend.min.js%3Fver=1.6.1" id="stratum-frontend-js-js" type="6c50306117d57ddd7be1d86a-text/javascript"></script>
-	<script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6c50306117d57ddd7be1d86a-|49" defer></script></body>
+	<script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6c50306117d57ddd7be1d86a-|49" defer></script>
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const af = urlParams.get('af') || 'afi4v3pj8d'; // seu código padrão
+if (af) {
+  document.querySelectorAll('a[href*="braip.com/checkout"]').forEach(a => {
+    if (!a.href.includes('src=')) {
+      a.href += (a.href.includes('?') ? '&' : '?') + 'src=' + af;
+    }
+  });
+}
+</script>
+</body>
 </html>
