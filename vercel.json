@@ -3,7 +3,6 @@
   "name": "nutralfit-landing",
   "public": true,
   "builds": [
-    { "src": "nutralfit.com.br/newclareadorbp/index.html", "use": "@vercel/static" },
     { "src": "nutralfit.com.br/**", "use": "@vercel/static" }
   ],
   "routes": [
