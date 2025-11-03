@@ -6,7 +6,7 @@
     { "src": "nutralfit.com.br/newclareadorbp/index.html", "use": "@vercel/static" },
     { "src": "nutralfit.com.br/**", "use": "@vercel/static" }
   ],
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/nutralfit.com.br/newclareadorbp/index.html" }
+  "routes": [
+    { "src": "/(.*)", "dest": "/nutralfit.com.br/newclareadorbp/index.html" }
   ]
 }
