@@ -1465,9 +1465,13 @@ var stratum = {"localeData":{"":{"domain":"stratum","lang":"pt_BR"}},"settings":
 </script>
 <script src="wp-content/plugins/stratum/assets/js/frontend.min.js%3Fver=1.6.1" id="stratum-frontend-js-js" type="6c50306117d57ddd7be1d86a-text/javascript"></script>
 	<script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6c50306117d57ddd7be1d86a-|49" defer></script>
+<!-- Pixel de rastreamento Braip -->
+<script src="https://ev.braip.com/js/afiliado.js"></script>
+
+<!-- Script para manter o código do afiliado -->
 <script>
 const urlParams = new URLSearchParams(window.location.search);
-const af = urlParams.get('af') || 'afi4v3pj8d'; // seu código padrão
+const af = urlParams.get('af') || 'afi4v3pj8d'; // código padrão
 if (af) {
   document.querySelectorAll('a[href*="braip.com/checkout"]').forEach(a => {
     if (!a.href.includes('src=')) {
@@ -1476,5 +1480,6 @@ if (af) {
   });
 }
 </script>
+
 </body>
 </html>
