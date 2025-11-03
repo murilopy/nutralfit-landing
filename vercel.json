@@ -1,32 +1,9 @@
 {
   "version": 2,
-  "name": "nutralfit-landing",
-  "public": true,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/wp-content/(.*)",
-      "dest": "/nutralfit.com.br/wp-content/$1"
-    },
-    {
-      "src": "/wp-includes/(.*)",
-      "dest": "/nutralfit.com.br/wp-includes/$1"
-    },
-    {
-      "src": "/cdn-cgi/(.*)",
-      "dest": "/nutralfit.com.br/cdn-cgi/$1"
-    },
-    {
-      "src": "/cf-fonts/(.*)",
-      "dest": "/nutralfit.com.br/cf-fonts/$1"
-    },
-    {
-      "src": "/$",
-      "dest": "/nutralfit.com.br/newclareadorbp/index.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/nutralfit.com.br/$1"
+      "source": "/",
+      "destination": "/newclareadorbp/index.html"
     }
-  ],
-  "cleanUrls": true
+  ]
 }
